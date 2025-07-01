@@ -1,0 +1,103 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"edoc"},
+{"type":"table","name":"admin","database":"edoc","data":
+[
+{"aemail":"admin@edoc.com","apassword":"123"}
+]
+}
+,{"type":"table","name":"appointment","database":"edoc","data":
+[
+{"appoid":"2","pid":"3","apponum":"1","scheduleid":"1","appodate":"2025-07-01"},
+{"appoid":"3","pid":"4","apponum":"2","scheduleid":"1","appodate":"2025-07-01"}
+]
+}
+,{"type":"table","name":"doctor","database":"edoc","data":
+[
+{"docid":"1","docemail":"doctor@edoc.com","docname":"Test Doctor","docpassword":"123","docnic":"000000000","doctel":"0951287381","specialties":"1"},
+{"docid":"2","docemail":"doctor2@edoc.com","docname":"test doctor","docpassword":"123","docnic":"11000004","doctel":"09512873811","specialties":"1"}
+]
+}
+,{"type":"table","name":"patient","database":"edoc","data":
+[
+{"pid":"5","pemail":"test4@edoc.com","pname":"TESTTTT ESTTDA","ppassword":"123","paddress":"anywhere anytime","pnic":"102318923","pdob":"2025-07-06","ptel":"0910214365"}
+]
+}
+,{"type":"table","name":"schedule","database":"edoc","data":
+[
+{"scheduleid":"1","docid":"1","title":"Test Session","scheduledate":"2050-01-01","scheduletime":"18:00:00","nop":"50"},
+{"scheduleid":"9","docid":"2","title":"test","scheduledate":"2025-07-01","scheduletime":"15:49:00","nop":"5"}
+]
+}
+,{"type":"table","name":"specialties","database":"edoc","data":
+[
+{"id":"1","sname":"Accident and emergency medicine"},
+{"id":"2","sname":"Allergology"},
+{"id":"3","sname":"Anaesthetics"},
+{"id":"4","sname":"Biological hematology"},
+{"id":"5","sname":"Cardiology"},
+{"id":"6","sname":"Child psychiatry"},
+{"id":"7","sname":"Clinical biology"},
+{"id":"8","sname":"Clinical chemistry"},
+{"id":"9","sname":"Clinical neurophysiology"},
+{"id":"10","sname":"Clinical radiology"},
+{"id":"11","sname":"Dental, oral and maxillo-facial surgery"},
+{"id":"12","sname":"Dermato-venerology"},
+{"id":"13","sname":"Dermatology"},
+{"id":"14","sname":"Endocrinology"},
+{"id":"15","sname":"Gastro-enterologic surgery"},
+{"id":"16","sname":"Gastroenterology"},
+{"id":"17","sname":"General hematology"},
+{"id":"18","sname":"General Practice"},
+{"id":"19","sname":"General surgery"},
+{"id":"20","sname":"Geriatrics"},
+{"id":"21","sname":"Immunology"},
+{"id":"22","sname":"Infectious diseases"},
+{"id":"23","sname":"Internal medicine"},
+{"id":"24","sname":"Laboratory medicine"},
+{"id":"25","sname":"Maxillo-facial surgery"},
+{"id":"26","sname":"Microbiology"},
+{"id":"27","sname":"Nephrology"},
+{"id":"28","sname":"Neuro-psychiatry"},
+{"id":"29","sname":"Neurology"},
+{"id":"30","sname":"Neurosurgery"},
+{"id":"31","sname":"Nuclear medicine"},
+{"id":"32","sname":"Obstetrics and gynecology"},
+{"id":"33","sname":"Occupational medicine"},
+{"id":"34","sname":"Ophthalmology"},
+{"id":"35","sname":"Orthopaedics"},
+{"id":"36","sname":"Otorhinolaryngology"},
+{"id":"37","sname":"Paediatric surgery"},
+{"id":"38","sname":"Paediatrics"},
+{"id":"39","sname":"Pathology"},
+{"id":"40","sname":"Pharmacology"},
+{"id":"41","sname":"Physical medicine and rehabilitation"},
+{"id":"42","sname":"Plastic surgery"},
+{"id":"43","sname":"Podiatric Medicine"},
+{"id":"44","sname":"Podiatric Surgery"},
+{"id":"45","sname":"Psychiatry"},
+{"id":"46","sname":"Public health and Preventive Medicine"},
+{"id":"47","sname":"Radiology"},
+{"id":"48","sname":"Radiotherapy"},
+{"id":"49","sname":"Respiratory medicine"},
+{"id":"50","sname":"Rheumatology"},
+{"id":"51","sname":"Stomatology"},
+{"id":"52","sname":"Thoracic surgery"},
+{"id":"53","sname":"Tropical medicine"},
+{"id":"54","sname":"Urology"},
+{"id":"55","sname":"Vascular surgery"},
+{"id":"56","sname":"Venereology"}
+]
+}
+,{"type":"table","name":"webuser","database":"edoc","data":
+[
+{"email":"admin@edoc.com","usertype":"a"},
+{"email":"doctor@edoc.com","usertype":"d"},
+{"email":"patient@edoc.com","usertype":"p"},
+{"email":"emhashenudara@gmail.com","usertype":"p"},
+{"email":"test2@edoc.com","usertype":"p"},
+{"email":"doctor2@edoc.com","usertype":"d"},
+{"email":"test4@edoc.com","usertype":"p"}
+]
+}
+]
